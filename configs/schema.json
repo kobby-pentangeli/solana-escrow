@@ -1,0 +1,27 @@
+[
+  {
+    "key": "escrow",
+    "schema": [
+      {
+        "key": "is_initialized",
+        "type": "bool"
+      },
+      {
+        "key": "initializer_pubkey",
+        "type": "pub"
+      },
+      {
+        "key": "temp_token_account_pubkey",
+        "type": "pub"
+      },
+      {
+        "key": "initializer_token_to_receive_account_pubkey",
+        "type": "pub"
+      },
+      {
+        "key": "expected_amount",
+        "type": "u64"
+      }
+    ]
+  }
+]

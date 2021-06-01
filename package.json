@@ -1,0 +1,20 @@
+{
+  "name": "escrow",
+  "version": "0.0.1",
+  "description": "An escrow program (smart contract) built for the Solana blockchain",
+  "main": "",
+  "testnetDefaultChannel": "v1.4.8",
+  "scripts": {
+    "build": "cargo build-bpf --manifest-path=./program/Cargo.toml --bpf-out-dir=dist/program",
+    "deploy": "node ./client/deployer.js",
+    "start": ""
+  },
+  "author": "Kobby Pentangeli",
+  "dependencies": {
+    "@solana/web3.js": "^1.12.0",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "soprox-abi": "0.0.13"
+  },
+  "devDependencies": {}
+}

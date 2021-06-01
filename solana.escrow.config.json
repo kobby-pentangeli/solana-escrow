@@ -1,0 +1,14 @@
+{
+  "network": {
+    "devnet": "https://devnet.solana.com/",
+    "testnet": "",
+    "mainnet": ""
+  },
+  "payers": [
+    {
+      "address": "",
+      "secretKey": ""
+    }
+  ],
+  "keypairPath": ""
+}

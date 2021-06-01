@@ -3,8 +3,7 @@ use solana_program::{
     program_pack::{IsInitialized, Pack, Sealed},
     pubkey::Pubkey,
 };
-
-use arrayref::{array_mut_ref, array_ref, array_refs, mut_array_refs};
+use arrayref::{array_mut_ref, array_ref, array_refs, mut_array_refs}; 
 
 pub struct Escrow {
     pub is_initialized: bool,

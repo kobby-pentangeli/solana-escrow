@@ -1,0 +1,18 @@
+[package]
+name = "solana-escrow"
+version = "0.1.0"
+description = "An escrow program (smart contract) built for the Solana blockchain"
+authors = ["Kobby Pentangeli <kobbypentangeli@gmail.com>"]
+edition = "2018"
+
+[features]
+no-entrypoint = []
+
+[dependencies]
+solana-program = "1.6.10"
+thiserror = "1.0.25"
+spl-token = {version = "3.1.1", features = ["no-entrypoint"]}
+arrayref = "0.3.6"
+
+[lib]
+crate-type = ["cdylib", "lib"]
