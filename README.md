@@ -2,6 +2,10 @@
 
 An escrow program (smart contract) built for the Solana blockchain
 
+## CREDIT
+
+The on-chain escrow program (written in Rust) is heavily inspired by the [Solana Escrow program by Paul Schaaf](https://paulx.dev/blog/2021/01/14/programming-on-solana-an-introduction/).
+
 ## TODO
 
 Due to time constraints, only an `initializer.js` has been included in the `/tests` folder to demonstrate
